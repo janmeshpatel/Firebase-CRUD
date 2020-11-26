@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Firebase CRUD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+</head>
+<body>
+    <main>
+        <div>
+            <p>Firebase CRUD Operation</p>
+            <!-- <input
+            type="text"
+            id="userId"
+            name="userId"
+            placeholder="UserId"
+            /><br /> -->
+            <input type="text" id="name" name="name" placeholder="Name" /><br />
+            <input type="text" id="email" name="email" placeholder="Email" /><br />
+            <input type="password" id="password" name="password" placeholder="Password" /><br />
+            <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Number"
+            /><br />
+            <button  id="submit" name="submit">Submit</button>
+        </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
